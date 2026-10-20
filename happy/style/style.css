@@ -714,7 +714,7 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-height: 500px) and (pointer: coarse) {
   body {
     position: fixed;
     width: 100%;
@@ -925,7 +925,7 @@ body {
   }
 }
 
-@media (max-width: 768px) and (max-height: 650px) {
+@media (max-width: 768px) and (max-height: 650px), (max-height: 500px) and (pointer: coarse) {
   .birthday-card {
     height: calc(100dvh - 24px);
   }
