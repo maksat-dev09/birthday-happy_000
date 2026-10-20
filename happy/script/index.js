@@ -22,7 +22,7 @@ function updateProgress() {
 const img = new Image();
 img.onload = updateProgress;
 img.onerror = updateProgress;
-img.src = "./img/brat.png";
+img.src = "./img/кукушка.jpg";
 
 // Preload audio
 const audio = document.getElementById("bgMusic");
